@@ -1,0 +1,30 @@
+h3{
+    font-size: 25px !important;
+    background-color:black;
+    border-radius: 20px;
+    color:white;
+    width:250px;
+    height:50px;
+}
+
+button:hover{
+    animation-name: exam;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exam{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px blue;}
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 1px 1px 38px yellow;}
+    to {box-shadow: 1px 1px 38px green;}
+}
